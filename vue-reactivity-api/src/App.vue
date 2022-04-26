@@ -12,6 +12,7 @@ import Login from './components/auth/Login.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
+  <router-view></router-view>
   <HelloWorld msg="Vite + Vue" />
   <Login />
 </template>
